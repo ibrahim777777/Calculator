@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/showtext"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:gravity="bottom|right"
+        android:paddingRight="35dp"
+        android:paddingBottom="10dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="80dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/buac"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/gray"
+                android:onClick="ac"
+                android:text="AC"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/bumin"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/gray"
+                android:onClick="opp"
+                android:text="-/+"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/buhun"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/gray"
+                android:text="%"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/budiv"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/orange"
+                android:onClick="operation"
+                android:text="/"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/bu7"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/gray2"
+                android:onClick="opp"
+                android:text="7"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/bu8"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/gray2"
+                android:onClick="opp"
+                android:text="8"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/bu9"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/gray2"
+                android:onClick="opp"
+                android:text="9"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/bumul"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/orange"
+                android:onClick="operation"
+                android:text="X"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/bu4"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/gray2"
+                android:onClick="opp"
+                android:text="4"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/bu5"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/gray2"
+                android:onClick="opp"
+                android:text="5"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/bu6"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/gray2"
+                android:onClick="opp"
+                android:text="6"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/buoff"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/orange"
+                android:onClick="operation"
+                android:text="-"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/bu1"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/gray2"
+                android:onClick="opp"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/bu2"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/gray2"
+                android:onClick="opp"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/bu3"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/gray2"
+                android:onClick="opp"
+                android:text="3"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/buadd"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/orange"
+                android:onClick="operation"
+                android:text="+"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp">
+
+            <Button
+                android:id="@+id/bu0"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_span="2"
+                android:backgroundTint="@color/gray2"
+                android:onClick="opp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/budot"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/gray2"
+                android:onClick="opp"
+                android:text="."
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/buequal"
+                android:layout_width="30dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/orange"
+                android:onClick="result"
+                android:text="="
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
